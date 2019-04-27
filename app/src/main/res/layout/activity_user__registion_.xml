@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".User_RegistionActivity"
+
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark">
+    <ImageButton
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+    android:layout_gravity="center"
+        android:background="@drawable/transperantlogo"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:padding="10dp"
+            android:fontFamily="serif"
+            android:textStyle="bold|italic"
+            android:text="@string/registration"/>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/RegistrationScreen_edittext_shopemail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+     android:background="@drawable/edittext_shap"
+        android:hint="@string/storeemail" />
+
+    <EditText
+        android:id="@+id/RegistrationScreen_edittext_shoppassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:background="@drawable/edittext_shap"
+        android:hint="@string/password"
+        android:inputType="textPassword" />
+    <Button
+        android:id="@+id/RegistrationScreen_button_singup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/color_shape"
+        android:layout_margin="20dp"
+        android:textColor="@color/white"
+        android:text="@string/singup" />
+
+    <Button
+        android:id="@+id/RegistratonScreen_forgot_password_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="@string/btn_forgot_password"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary" />
+
+    <Button
+        android:id="@+id/RegistrationScreen_button_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="@string/btn_link_to_login"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"
+        android:textSize="15dp" />
+
+
+
+
+
+</LinearLayout>
+

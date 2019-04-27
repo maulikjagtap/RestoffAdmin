@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/gym_iteam_Imagebutton_iteamimage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_x="113dp"
+                android:layout_y="46dp"
+                android:background="@drawable/imageroundhape"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_account_circle_black_24dp" />
+
+            <ImageButton
+                android:id="@+id/gym_iteam_Imagebutton_chooseimage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_x="220dp"
+                android:layout_y="147dp"
+                android:background="@drawable/roundshape"
+                android:src="@drawable/ic_add_a_photo_black_24dp" />
+        </AbsoluteLayout>
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/category"
+            android:textSize="14dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/gym_iteam_spinner_category"
+                android:layout_width="218dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+
+                android:background="@drawable/edittext_shap"
+                android:padding="10dp" />
+            <Button
+                android:id="@+id/gym_menuadditeam"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:background="@drawable/color_shape"
+                android:text="@string/addmenu"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/gym_iteam_edittext_iteamname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edittext_shap"
+            android:hint="@string/iteamname"
+            android:padding="10dp" />
+
+
+        <EditText
+            android:id="@+id/gym_iteam_edittext_iteamdescription"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edittext_shap"
+            android:hint="@string/description"
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/gym_iteam_edittext_price"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:inputType="number"
+            android:background="@drawable/edittext_shap"
+            android:padding="10dp"
+            android:hint="@string/pice"
+
+            />
+        <Button
+            android:id="@+id/gym_iteam_button_additeam"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/color_shape"
+            android:padding="10dp"
+            android:text="@string/additeam"
+            android:textColor="@color/white" />
+
+
+
+    </LinearLayout>
+</ScrollView>

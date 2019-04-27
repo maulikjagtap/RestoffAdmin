@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Userpicandotherdata"
+    android:orientation="vertical">
+    <AbsoluteLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+    <ImageButton
+        android:id="@+id/UserprofileScreen_Imagebutton_profileimage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_x="113dp"
+        android:layout_y="46dp"
+        android:src="@drawable/ic_account_circle_black_24dp"
+        android:scaleType="centerCrop"
+        android:background="@drawable/imageroundhape"/>
+
+    <ImageButton
+        android:id="@+id/UserprofileScreen_Imagebutton_chooseimage"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_x="220dp"
+        android:layout_y="147dp"
+        android:background="@drawable/roundshape"
+        android:src="@drawable/ic_add_a_photo_black_24dp"
+
+        />
+    </AbsoluteLayout>
+    <EditText
+        android:id="@+id/UserprofileScreen_edittext_shopname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+       android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittext_shap"
+        android:hint="@string/storename"
+        android:padding="10dp"
+       />
+    <Spinner
+        android:id="@+id/UserprofileScreen_spinner_type"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        style="@style/Base.TextAppearance.AppCompat.Widget.TextView.SpinnerItem"
+     ></Spinner>
+
+    <EditText
+        android:id="@+id/UserprofileScreen_edittext_shopaddress"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittext_shap"
+       android:padding="10dp"
+        android:hint="@string/storeAddress" />
+    <EditText
+        android:id="@+id/UserprofileScreen_edittext_shopdescription"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/edittext_shap"
+        android:padding="10dp"
+        android:hint="@string/storedes" />
+    <EditText
+        android:id="@+id/UserprofileScreen_edittext_shopcontact"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:inputType="phone"
+        android:background="@drawable/edittext_shap"
+        android:padding="10dp"
+        />
+
+    <Button
+        android:id="@+id/UserprofileScreen_button_setprofile"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/color_shape"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:text="@string/setprofile" />
+
+
+</LinearLayout>
+</ScrollView>

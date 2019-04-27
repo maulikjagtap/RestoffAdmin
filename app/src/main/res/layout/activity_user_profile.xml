@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".UserProfile">
+
+        <AbsoluteLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/User_Imagebutton_profileimage"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_x="113dp"
+                android:layout_y="46dp"
+                android:background="@drawable/imageroundhape"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_account_circle_black_24dp" />
+
+            <ImageButton
+                android:id="@+id/User_Imagebutton_chooseimage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_x="220dp"
+                android:layout_y="147dp"
+                android:background="@drawable/roundshape"
+                android:src="@drawable/ic_add_a_photo_black_24dp" />
+        </AbsoluteLayout>
+
+        <EditText
+            android:id="@+id/User_edittext_shopname"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edittext_shap"
+
+            android:padding="10dp" />
+
+        <EditText
+            android:id="@+id/User_edittext_email"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edittext_shap"
+            android:hint="@string/email"
+            android:padding="10dp" />
+
+        <TextView
+            android:id="@+id/User_edittext_type"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"
+            android:background="@drawable/edittext_shap"
+            android:padding="10dp"
+            android:hint="@string/app_name"
+
+            />
+
+        <EditText
+            android:id="@+id/User_edittext_shopaddress"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edittext_shap"
+            android:hint="@string/storeAddress"
+            android:padding="10dp" />
+        <EditText
+            android:id="@+id/User_edittext_shopdescription"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edittext_shap"
+            android:hint="@string/storedes"
+            android:padding="10dp" />
+        <EditText
+            android:id="@+id/User_edittext_shopcontact"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/edittext_shap"
+
+            android:padding="10dp" />
+
+        <Button
+            android:id="@+id/User_button_setprofile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/color_shape"
+            android:padding="10dp"
+            android:text="@string/updateprofile"
+            android:textColor="@color/white" />
+
+
+    </LinearLayout>
+</ScrollView>
